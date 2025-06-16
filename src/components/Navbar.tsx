@@ -15,13 +15,13 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed top-15 inset-x-0 z-50",
+        "fixed top-10 inset-x-0 z-50",
         "w-full px-4",
         "sm:max-w-2xl sm:mx-auto",
         className
       )}
     >
-      <Menu>
+      <Menu className="text-sm sm:text-base">
         <MenuItem item="Home" path="/" />
         <MenuItem item="About" path="/about#about" />
         <MenuItem item="Education" path="/about#education" />
