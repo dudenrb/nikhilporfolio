@@ -17,12 +17,14 @@ function Navbar({ className }: { className?: string }) {
       className={cn(
         "fixed top-4 inset-x-0 z-50",
         "w-full px-2 sm:px-4",
-        "sm:max-w-2xl sm:mx-auto",
+        "sm:max-w-3xl sm:mx-auto",
         className
       )}
     >
-      <div className="w-full overflow-x-auto">
-        <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 sm:gap-4 py-2">
+      {/* Add horizontal scroll container */}
+      <div className="overflow-x-auto scrollbar-none">
+        {/* Flex container for menu items */}
+        <div className="flex items-center justify-start sm:justify-center gap-4 py-2 whitespace-nowrap">
           <Menu>
             <MenuItem item="Home" path="/" />
             <MenuItem item="About" path="/about#about" />
