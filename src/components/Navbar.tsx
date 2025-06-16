@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 
 
-export function NavbarHome() {
+export function Navbar() {
 
   return (
 
