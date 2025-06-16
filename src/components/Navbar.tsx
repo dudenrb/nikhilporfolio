@@ -31,7 +31,6 @@ function Navbar({ className }: { className?: string }) {
             <MenuItem item="Education" path="/about#education" />
             <MenuItem item="Experience" path="/about#experience" />
             <MenuItem item="Projects" path="/projects#projects" />
-            <MenuItem item="Resume" path="/resume" />
           </Menu>
         </div>
       </div>
