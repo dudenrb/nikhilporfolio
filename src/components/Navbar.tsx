@@ -14,7 +14,12 @@ export function NavbarHome() {
 function Navbar({ className }: { className?: string }) {
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 z-50",
+        "w-full px-4",
+        "sm:max-w-2xl sm:mx-auto",
+        className
+      )}
     >
       <Menu>
         <MenuItem item="Home" path="/" />
@@ -27,4 +32,5 @@ function Navbar({ className }: { className?: string }) {
     </div>
   );
 }
+
 export default NavbarHome;
