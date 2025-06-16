@@ -2,6 +2,7 @@ import Aboutcard from "./AboutCard";
 import Heading from "@/components/Heading";
 import Circle from "@/components/About/TechCircle";
 import Education from "@/components/About/Education";
+import Experience from "@/components/About/Experience";
 
 const About = (): JSX.Element => {
   return (
@@ -27,6 +28,16 @@ const About = (): JSX.Element => {
       {/* Second Row: Education Section */}
       <div id="education" className="mt-14">
         <Education />
+      </div>
+
+      {/* Circle */}
+      <div className="flex justify-center items-center">
+        <Circle />
+      </div>
+
+      {/* Third Row: Experience Section */}
+      <div id="experience" className="mt-14">
+        <Experience />
       </div>
     </div>
   );
