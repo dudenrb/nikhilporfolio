@@ -25,7 +25,7 @@ const Projects: React.FC = (): JSX.Element => {
           description="A sleek and responsive portfolio showcasing projects, skills, and contact information."
           // Changed to absolute path for public folder assets
           imgLink="/hehe1.png"
-          //liveLink="https://hima31.vercel.app/"
+          liveLink="https://nikhilporfolio.vercel.app/"
           githubLink="https://www.github.com/Nikhilhr8/portfolio"
           // Removed the commented out 'icons' line
         />
