@@ -20,6 +20,7 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem item="Home" path="/" />
         <MenuItem item="About" path="/about#about" />
         <MenuItem item="Education" path="/about#education" />
+        <MenuItem item="Experience" path="/about#experience" />
         <MenuItem item="Projects" path="/projects#projects" />
         <MenuItem item="Resume" path="/resume" />
       </Menu>
