@@ -12,7 +12,7 @@ import Navbar from "@/components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Experience from "./components/About/Experience";
+//import Experience from "./components/About/Experience";
 const App: React.FC = () => {
   useEffect(() => {
     // Set the dark class on the html element to enforce dark mode globally
