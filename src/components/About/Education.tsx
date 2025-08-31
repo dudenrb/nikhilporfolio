@@ -74,7 +74,7 @@ College Society, etc.
               <strong>Class 10th</strong>
             </h2>
             <h3 className="mt-2 text-left text-xl md:text-2xl lg:text-3xl font-medium text-white">
-              <strong>School:</strong> Saint Joseph’s School
+              <strong>School:</strong> Saint Joseph’s School Jamui
             </h3>
 
             <p className="mt-2 text-lg md:text-xl font-semibold text-white">
