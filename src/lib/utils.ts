@@ -28,7 +28,7 @@ const supabase = "/supabase.svg";
 const shadcn = "/shadcnui.svg";
 
 export const drive_link =
-  "https://drive.google.com/file/d/1Qo4JH5mDBOBcYAsn2w4kaVWFcmpseTTx/view?usp=sharing";
+  "https://drive.google.com/file/d/13oNQt-Z4Gs7LMLGLr7vZQMqbxGMY1_Pm/view?usp=drivesdk";
 
 export const musicRoomIcons = {
   iconLink: [nextjs, typescript, tailwindcss, postgresql, prisma, vercel],
