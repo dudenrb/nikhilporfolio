@@ -27,7 +27,7 @@ export default function DockDemo() {
         </DockIcon>
         <DockIcon
           className="bg-black/10 dark:bg-white/10"
-          onClick={() => handleClick("https://www.instagram.com/nikhilbajpayi0301/")}
+          onClick={() => handleClick("https://www.instagram.com/nikhil.bajpayi/")}
         >
           <Icons.instagram className="size-full" />
         </DockIcon>
