@@ -4,16 +4,16 @@ import Heading from "@/components/Heading"; // Adjust path if necessary
 
 export default function Experience() {
   const data = [
-    {
-      title: "June 2025 - Present",
+     {
+      title: "Nov 2025 - Present",
       content: (
         <WobbleCard containerClassName="col-span-1 min-h-[300px]">
           <div className="-mt-12">
             <h2 className="text-left text-2xl md:text-3xl lg:text-4xl font-semibold text-white">
-              <strong>Full Stack Developer</strong>
+              <strong>AI/LLM Data Specialist</strong>
             </h2>
             <h3 className="mt-2 text-left text-xl md:text-2xl lg:text-3xl font-medium text-white">
-              <strong>Company:</strong> Upwork
+              <strong>Company:</strong> Innodata
             </h3>
             <p className="mt-2 text-left text-lg md:text-xl font-semibold text-white">
               <strong>Role Type:</strong> Freelance
@@ -26,21 +26,18 @@ export default function Experience() {
       ),
     },
     {
-      title: "Jan 2025 - June 2025",
+      title: "July 2025 - Nov 2025",
       content: (
         <WobbleCard containerClassName="col-span-1 min-h-[300px]">
           <div className="-mt-12">
             <h2 className="text-left text-2xl md:text-3xl lg:text-4xl font-semibold text-white">
-              <strong>Software Engineer Intern</strong>
+              <strong>Full Stack Developer</strong>
             </h2>
             <h3 className="mt-2 text-left text-xl md:text-2xl lg:text-3xl font-medium text-white">
-              <strong>Company:</strong> Flexi Analyst
+              <strong>Company:</strong> Upwork
             </h3>
             <p className="mt-2 text-left text-lg md:text-xl font-semibold text-white">
-              <strong>Role Type:</strong> Internship
-            </p>
-            <p className="mt-2 text-left text-lg md:text-xl font-semibold text-white">
-              <strong>Duration:</strong> 6 months
+              <strong>Role Type:</strong> Freelance
             </p>
             <p className="mt-2 text-left text-lg md:text-xl font-semibold text-white">
               <strong>Location:</strong> Remote
@@ -87,3 +84,4 @@ export default function Experience() {
   );
 
 }
+
